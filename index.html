@@ -13,16 +13,18 @@
 
 	<body>
 		<header>
+			<img src="http://www.pngall.com/wp-content/uploads/1/World.png" height="50" width="50">
 			<h1>World Database Lookup</h1>
 		</header>
 
 		<main>
-			<div id="controls">
+			<div class="controls">
 				<label for="country">Country:</label>
 				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
 			</div>
-			
+			<div class="controlsbuttons">
+				<button class="lookup" id="lookupb">Lookup</button>
+				<button class="lookup" id="lookupc">Lookup Cities</button></div>
 			<div id="result">
 				<!-- countries will appear here -->
 			</div>
